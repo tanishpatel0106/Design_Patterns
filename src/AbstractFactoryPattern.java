@@ -1,6 +1,6 @@
 import Creational.AbstractFactory.*;
 
-public class AbstractFactory {
+public class AbstractFactoryPattern {
     public static void main(String [] args){
         Creational.AbstractFactory.AbstractFactory sf = FactoryProducer.getFactory(false);
         Shape s1 = sf.getShape("Rectangle");
